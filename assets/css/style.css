@@ -1,0 +1,37 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #191c32;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items:center;
+}
+.brand span {
+  color: aqua;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-around;
+}
+.menu li {
+  list-style: none;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.75rem 1.25rem;
+}
+.menu a:hover{
+    color:aqua;
+    transition: ease-in .5s;
+}
