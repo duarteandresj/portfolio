@@ -2,7 +2,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.wrapper{
+.wrapper {
   width: 100vw;
   height: 100vh;
   background-color: #191c32;
@@ -67,6 +67,7 @@ span {
   height: 520px;
   border: 0.5rem solid aqua;
 }
+/* ABOUT */
 .about {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -95,6 +96,7 @@ span {
 .about p {
   margin-bottom: 1rem;
 }
+/* PORTFOLIO */
 .portfolio{
   width: 100vw;
   background-color: #191c32;
@@ -160,5 +162,84 @@ span {
   display: flex;
   width: 100%;
   justify-content: center;
+  margin-top: 1rem;
+}
+/*CONTACT*/
+.contact-section{
+  width: 100vw;
+  background-color: #191c32;
+  color: #fff;
+}
+.contact-headings h2{
+  font-size: 2.5rem;  
+}
+.container-contact {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+
+}
+.container-contact img{
+width: 750px;
+height: 700px;
+  bottom: 0;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-top: 2rem;
+}
+.form input{
+  padding: 0.6125rem 1.25rem;
+  margin-bottom: 1rem;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+.form textarea{
+  height: 150px;
+  background: none;
+  color: #fff;
+  padding: 1.5rem;
+  border: 1px solid #fff;
+}
+
+.btn-submit{
+  padding: 0.6125rem 1.25rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 1.25rem;
+  text-transform: uppercase;
+  background-color: aqua;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 0.69);
+}
+.btn-submit:hover {
+  background-color: white;
+  box-shadow: none;
+}
+/* FOOTER */
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+  background-color: aqua;
+  text-align: center;
+}
+.footer-content h2{
+  font-size: 2rem;
+}
+.footer-content h5, .social-network i{
+  font-size: 1.5rem;
+}
+.social-network{
+  display: flex;
+  width: 300px; 
+  justify-content: space-evenly;
   margin-top: 1rem;
 }
