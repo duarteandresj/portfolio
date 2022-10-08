@@ -1,9 +1,8 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-
 .wrapper {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: #191c32;
   color: #fff;
@@ -23,7 +22,6 @@ body {
   width: 50%;
   justify-content: space-around;
 }
-
 .menu li {
   list-style: none;
 }
@@ -49,17 +47,17 @@ body {
   width: 80vw;
   height: 80vh;
   display: grid;
+  gap: 10%;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
 .main img {
   width: 350px;
-  height: 520px;
-  border: 0.5rem solid aqua;
+  border: 0.375rem solid aqua;
   min-height: 300px;
 }
 h1 {
-  font-size: clamp(4vw, 1.5rem, 3rem);
+  font-size: clamp(5vw, 1.5rem, 3rem);
 }
 span {
   color: aqua;
@@ -75,8 +73,8 @@ span {
   box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 0.69);
 }
 .download-cv:hover,
-.project-details__button {
-  background-color: white;
+.project-details__button:hover {
+  background-color: #fff;
   box-shadow: none;
 }
 
@@ -84,11 +82,11 @@ span {
 .about {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  width: 100vw;
+  width: 100%;
   align-items: center;
 }
 .about img {
-  max-width: 100%;
+  max-width: 95%;
   grid-column: 1/5;
 }
 .about-info {
@@ -109,15 +107,61 @@ span {
 .about p {
   margin-bottom: 1rem;
 }
-/* PORTFOLIO */
-.portfolio {
-  width: 100vw;
+/* FORMACION */
+.courses{
   background-color: #191c32;
   color: #fff;
+  justify-content: center;
 }
-.portofolio__headings {
-  width: 100vw;
-  padding: 5rem;
+.courses__headings {
+  width: 80%;
+  padding: 2rem;
+}
+.courses__headings h2 {
+  font-size: 2.5rem;
+}
+.courses__container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.courses__card{
+  background-color: #0c183e;
+  width: 30%;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.courses__card__img{
+  width: 100%;
+  height: 150px;
+background-image: url(/assets/img/github.svg);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+.courses__card__title {
+  text-align: center;
+  padding: 1.25rem;
+}
+.courses__card__title h2{
+  font-size: 1.5rem;
+  margin-bottom: .6125rem;
+}
+.courses__card__title h4{
+  font-size: 0.75rem;
+}
+/* PORTFOLIO */
+.portfolio {
+  width: 100%;
+  background-color: #fff;
+  color: #191c32;
+}
+.portofolio__headings,.contact-headings {
+  width: 80%;
+  padding: 2rem;
 }
 .portofolio__headings h2 {
   font-size: 2.5rem;
@@ -154,7 +198,7 @@ span {
   display: flex;
   justify-content: space-evenly;
 }
-.card__projects-links a {
+.card__projects-links a{
   color: #fff;
   text-decoration: none;
 }
@@ -166,7 +210,7 @@ span {
   margin: 1rem;
   width: 70%;
 }
-.card .project-details a {
+.card .project-details a,.project-details__button a {
   text-decoration: none;
   color: #191c32;
   text-transform: uppercase;
@@ -179,7 +223,7 @@ span {
 }
 /*CONTACT*/
 .contact-section {
-  width: 100vw;
+  width: 100%;
   background-color: #191c32;
   color: #fff;
 }
@@ -189,6 +233,7 @@ span {
 .container-contact {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   margin: 0 auto;
 }
 .container-contact img {
@@ -238,7 +283,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 200px;
   background-color: aqua;
   text-align: center;
