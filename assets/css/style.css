@@ -61,14 +61,19 @@ body {
 }
 .main img {
   width: 350px;
-  border: 0.375rem solid var(--color-claro-fuerte);
   min-height: 300px;
+  opacity: 60%;
 }
+
 h1 {
-  font-size: clamp(5vw, 1.5rem, 3rem);
+  font-size: clamp(4vw, 1.5rem, 2.5rem);
 }
 span {
   color: var(--color-claro-fuerte);
+}
+.info-content__p{
+  font-size: 0.75rem;
+  line-height: 1.5;
 }
 .download-cv,
 .project-details__button {
