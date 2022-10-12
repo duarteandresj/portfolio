@@ -1,3 +1,4 @@
+//  MOSTRAR MENU
 const $menu=document.getElementById("menu");
 const $togOpen=document.getElementById("toggle_open");
 const $togClose=document.getElementById("toggle_close");
@@ -15,3 +16,22 @@ function toggleMenu(){
         $togClose.style.display="none"
     }
 }
+//  BOTON LEER MAS
+const $btnLeerMas=document.querySelector(".btn-leerMas");
+const $puntos=document.getElementById("puntos");
+const $leerMas=document.getElementById("leer-mas");
+
+
+$btnLeerMas.addEventListener("click",()=>{
+    if($puntos.style.display==="none"){
+        $puntos.style.display="inline";
+        $btnLeerMas.innerHTML="Leer mas";
+        $leerMas.style.display="none";
+    }else{
+        $puntos.style.display="none";
+        $btnLeerMas.style.marginTop="1rem";
+        $btnLeerMas.innerHTML="Leer menos";
+        $leerMas.style.display="inline";
+    }
+
+})
