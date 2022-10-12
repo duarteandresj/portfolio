@@ -35,3 +35,20 @@ $btnLeerMas.addEventListener("click",()=>{
     }
 
 })
+//  BOTON SUBMIT Y BOTON PROJECT DETAILS
+const $btnProject=document.querySelector(".btn-construccion1")
+const $btnProject2=document.querySelector(".btn-construccion2")
+
+const $btnSubmit=document.querySelector(".btn-submit");
+$btnSubmit.addEventListener("click",event=>{
+    event.preventDefault();
+    location.href="en-construccion.html"
+})
+$btnProject.addEventListener("click",event=>{
+    event.preventDefault();
+    location.href="en-construccion.html"
+})
+$btnProject2.addEventListener("click",event=>{
+    event.preventDefault();
+    location.href="en-construccion.html"
+})

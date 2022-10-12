@@ -34,10 +34,10 @@
             <h2>A <span>D</span></h2>
           </div>
           <ul class="menu" id="menu">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Sobre mi</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#SobreMi">Sobre mi</a></li>
+            <li><a href="#Portafolio">Portfolio</a></li>
+            <li><a href="#Contactame">Contacto</a></li>
           </ul>
           <div class="toggle-menu">
             <i class="fa-solid fa-bars" id="toggle_open"></i>
@@ -46,13 +46,13 @@
         </nav>
       </header>
       <!-- INFO -->
-      <main class="main">
+      <main class="main" id="Inicio">
         <div class="info-content">
           <span class="info-content__subtitle">Ingeniero Electrico </span>
           <h1><span>Duarte</span>, Andrés</h1>
           <div class="social-network">
-            <a href="#"><i class="fa-brands fa-github"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/duarteandresj" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/andres-duarte-8896b1197/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
           </div>
 
           <p class="info-content__p">
@@ -69,8 +69,8 @@
             ></i
             >.
           </p>
-          <a href="#">
-            <button class="download-cv" download="./assets/img/github.svg">
+          <a href="/assets/cv-AD.pdf"download>
+            <button class="download-cv" >
               Download CV
             </button>
           </a>
@@ -79,16 +79,16 @@
       </main>
     </div>
     <!-- ABOUT -->
-    <div class="about">
-      <img src="./assets/img/perfil2.png" alt="imagen de perfil" />
+    <div class="about" id="SobreMi">
+      <img src="./assets/img/img-About.jpg" alt="imagen sobre mi" />
       <div class="about-info">
         <h2>Sobre mi</h2>
         <div class="divider"></div>
         <p>
           Soy alguien por naturaleza curioso, aplicado y un poco distraido
-          tambien. <br>
-          Disfruto pasar el tiempo con mi pareja y mi hijo, con todas
-          sus ocurrencias y berrinches.
+          tambien. <br />
+          Disfruto pasar el tiempo con mi pareja y mi hijo, con todas sus
+          ocurrencias y berrinches.
           <br />
           Desde chico me gusta aprender cosas nuevas esto me llevo de a poco a
           que me interese el mundo de la tecnologia.
@@ -96,12 +96,12 @@
         </p>
 
         <p id="leer-mas">
-          Cuando tenia 10 años realice un curso de "Computación",
-          esta fue mi primer acercamiento a una computadora. Recuerdo haberme
-          escrito la distribución del teclado en una hoja de cuaderno "Gloria"
-          asi poder memorizarmela.
+          Cuando tenia 10 años realice un curso de "Computación", esta fue mi
+          primer acercamiento a una computadora. Recuerdo haberme escrito la
+          distribución del teclado en una hoja de cuaderno "Gloria" asi poder
+          memorizarmela.
           <br />
-          Gracias al esfuerzo conjunto de mis padres,  al año tuvimos en casa
+          Gracias al esfuerzo conjunto de mis padres, al año tuvimos en casa
           nuestra primer computadora. Fue como un juguete al principio, al poco
           tiempo la desarme para saber que tenia adentro (Soy muy curioso).
           <br />
@@ -131,98 +131,122 @@
           <div class="courses__card__title">
             <h2>ONE y Alura LATAM</h2>
             <h4>Formación conjunta entre Oracle y Alura</h4>
+            <p>
+              ONE es un programa de educación y empleabilidad con el objetivo
+              social de formar personas en tecnología y conectarlas con el
+              mercado laboral a través de a través de empresas colaboradoras.
+            </p>
+            <a href="https://www.oracle.com/ar/education/oracle-next-education/" target="_blank"
+              ><i class="fa-solid fa-globe"></i
+            ></a>
+            <a href="https://www.aluracursos.com/" target="_blank"
+              ><i class="fa-solid fa-globe"></i
+            ></a>
           </div>
         </div>
         <div class="courses__card">
           <div class="courses__card__img"></div>
           <div class="courses__card__title">
-            <h2>Intitution</h2>
-            <h4>Name course</h4>
-          </div>
-        </div>
-        <div class="courses__card">a
-          <div class="courses__card__img"></div>
-          <div class="courses__card__title">
-            <h2>Intitution</h2>
-            <h4>Name course</h4>
+            <h2>Argentina Programa</h2>
+            <h4>
+              Plan nacional, federal e inclusivo de formación en programación y
+              software.
+            </h4>
+            <p>
+              Un programa para acceder a capacitaciones gratuitas en tres áreas:
+              programación, testing y habilidades digitales.
+            </p>
+            <a
+              href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa"
+              ><i class="fa-solid fa-globe"></i
+            ></a>
           </div>
         </div>
         <div class="courses__card">
           <div class="courses__card__img"></div>
           <div class="courses__card__title">
-            <h2>Intitution</h2>
-            <h4>Name course</h4>
+            <h2>r/argentina programa!</h2>
+            <h4>
+              Este es un curso para aprender JavaScript desde 0, gratis y en
+              español.
+            </h4>
+            <p>
+              Este curso NO ES EL PROGRAMA DEL GOBIERNO ARGENTINO. Es una
+              comunidad independiente de mentores y alumnos a la que son
+              completamente bienvenidos.
+            </p>
+            <a href="https://argentinaprograma.com/" target="_blank"
+              ><i class="fa-solid fa-globe"></i
+            ></a>
+          </div>
+        </div>
+        <div class="courses__card">
+          <div class="courses__card__img"></div>
+          <div class="courses__card__title">
+            <h2>Universidad Tecnologica Nacional- FRGP</h2>
+            <h4>Ing. Eléctrica</h4>
+            <p>
+              Ubicada en el corazón de la ciudad de General Pacheco, la FRGP es
+              una Facultad pública e inclusiva, comprometida con la generación y
+              promoción del conocimiento, la formación de profesionales de
+              excelencia capaces de dar respuestas ante las demandas propias del
+              desarrollo socioeconómico de nuestro país, teniendo como eje a la
+              Innovación y el Desarrollo tecnológico al servicio de la
+              comunidad, y específicamente de la Industria.
+            </p>
+            <a href="https://www.frgp.utn.edu.ar/" target="_blank"><i class="fa-solid fa-globe"></i></a>
           </div>
         </div>
       </div>
     </div>
     <!-- PORTFOLIO -->
-    <div class="portfolio">
+    <div class="portfolio" id="Portafolio">
       <div class="portofolio__headings">
-        <h2>My Portfolio</h2>
+        <h2>Portfolio</h2>
         <div class="divider"></div>
       </div>
       <div class="container">
         <div class="card">
-          <div class="card__img"></div>
+          <div class="card__img encriptador"></div>
           <div class="card__title">
-            <h2>Project Description</h2>
+            <h2>Encriptador</h2>
           </div>
           <div class="card__projects-links">
-            <a href="https://github.com/" target="_blank"
+            <a href="https://github.com/duarteandresj/encriptador-challenge-ONE" target="_blank"
               ><i class="fa-brands fa-github"></i
             ></a>
-            <a href="#"><i class="fa-solid fa-earth-americas"></i></a>
-            <a href="#"><i class="fa-sharp fa-solid fa-code"></i></a>
+            <a href="https://duarteandresj.github.io/encriptador-challenge-ONE/" target="_blank"><i class="fa-solid fa-earth-americas"></i></a>
           </div>
           <div class="project-details-content">
-            <button class="project-details__button">
+            <button class="project-details__button btn-construccion1">
               <a href="#">Project details</a>
             </button>
           </div>
         </div>
         <div class="card">
-          <div class="card__img"></div>
+          <div class="card__img ahorcado"></div>
           <div class="card__title">
-            <h2>Project Description</h2>
+            <h2>Ahorcado</h2>
           </div>
           <div class="card__projects-links">
-            <a href="https://github.com/" target="_blank"
+            <a href="https://github.com/duarteandresj/ahorcado-challenge-ONE" target="_blank"
               ><i class="fa-brands fa-github"></i
             ></a>
-            <a href="#"><i class="fa-solid fa-earth-americas"></i></a>
-            <a href="#"><i class="fa-sharp fa-solid fa-code"></i></a>
+            <a href="https://duarteandresj.github.io/ahorcado-challenge-ONE/" target="_blank"><i class="fa-solid fa-earth-americas"></i></a>
           </div>
-          <div class="project-details-content">
+          <div class="project-details-content btn-construccion2">
             <button class="project-details__button">
               <a href="#">Project details</a>
             </button>
           </div>
         </div>
-        <div class="card">
-          <div class="card__img"></div>
-          <div class="card__title">
-            <h2>Project Description</h2>
-          </div>
-          <div class="card__projects-links">
-            <a href="https://github.com/" target="_blank"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-            <a href="#"><i class="fa-solid fa-earth-americas"></i></a>
-            <a href="#"><i class="fa-sharp fa-solid fa-code"></i></a>
-          </div>
-          <div class="project-details-content">
-            <button class="project-details__button">
-              <a href="#">Project details</a>
-            </button>
-          </div>
         </div>
       </div>
     </div>
     <!-- CONTACTO -->
-    <div class="contact-section">
+    <div class="contact-section" id="Contactame">
       <div class="contact-headings">
-        <h2>Keep in touch</h2>
+        <h2>Contactame</h2>
         <div class="divider"></div>
       </div>
       <div class="container-contact">
@@ -248,8 +272,8 @@
         <h2>Duarte Andres</h2>
       </div>
       <div class="social-network">
-        <a href="#"><i class="fa-brands fa-github"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/duarteandresj" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/andres-duarte-8896b1197/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
       </div>
     </footer>
     <script src="/js/scripts.js"></script>
